@@ -1,0 +1,642 @@
+/* ID: 124167 */
+/* Quarter 2 Project */
+
+/* CSS Stylesheet Below */
+
+/* Sign-In Page Below */
+
+#siBody {
+    /* Image Below: https://i.dlpng.com/static/png/6788133_preview.png */
+    background-image: url("signInBG2.png");
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+#siBox {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+table, tbody, tr, td, th {
+    border-collapse: collapse;
+}
+#siHeader1 {
+    padding: 10px;
+    font-family: "Lexend Deca";
+    font-size: 27px;
+    background-color: lightseagreen;
+    border-radius: 30px 30px 0px 0px;
+}
+#siHeader2 {
+    font-size: 40px;
+    font-family: "Lexend Deca";
+    color: lightseagreen;
+}
+#si span {
+    font-size: 15px;
+}
+.siFields {
+    border: none;
+    border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+    outline: none;
+    background: none;
+}
+#siFound {
+    color: red;
+}
+#siSubmit {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+    border: none;
+}
+#siSubmit:hover{
+    background: -webkit-linear-gradient(right, #b224ef, #7579ff);
+}
+#si input {
+    width: 300px;
+    padding-top: 15px;
+}
+#si input:hover {
+    border-bottom: 2px solid black;
+}
+#si2 {
+    /* Image Below: https://www.welovesolo.com/wp-content/uploads/2016/02/l5wtzxerao5.jpg */
+    background-image: url("signInBG3.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: 0px 0px 20px 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    width: 40%;
+}
+#siHeader3 {
+    font-size: 30px;
+    font-family: "Lexend Deca";
+}
+#si2Submit {
+    color: white;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    width: 110px;
+    border: 2px solid white;
+    padding: 5px;
+    background: none;
+}
+#si2Submit:hover {
+    color: lightseagreen;
+    border: 2px solid lightseagreen;
+}
+hr {
+    border: 3px solid black;
+    background-color: black;
+    margin: 0;
+}
+
+
+/* Sign-Up Page Below */
+
+#suBody {
+    /* Image Below: https://i.dlpng.com/static/png/6788133_preview.png */
+    background-image: url("signInBG2.png");
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+#suBox {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#su2Header1 {
+    padding: 10px;
+    font-family: "Lexend Deca";
+    font-size: 27px;
+    background-color: lightseagreen;
+    border-radius: 30px 30px 0px 0px;
+}
+#su2Header2 {
+    font-size: 40px;
+    font-family: "Lexend Deca";
+    color: lightseagreen;
+}
+#su2 span {
+    font-size: 15px;
+}
+#su2Fields {
+    border: none;
+    border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+    outline: none;
+    background: none;
+}
+#suFound {
+    color: red;
+}
+#su2Submit {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+    border: none;
+}
+#su2Submit:hover{
+    background: -webkit-linear-gradient(right, #b224ef, #7579ff);
+}
+#su2 input {
+    width: 300px;
+    padding-top: 5px;
+}
+#su2 input:hover {
+    border-bottom: 2px solid black;
+}
+#su {
+    /* Image Below: https://www.welovesolo.com/wp-content/uploads/2016/02/l5wtzxerao5.jpg */
+    background-image: url("signInBG3.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: 0px 0px 0px 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    width: 40%;
+}
+#su2Header3 {
+    font-size: 30px;
+    font-family: "Lexend Deca";
+}
+#suSubmit {
+    color: white;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    width: 110px;
+    border: 2px solid white;
+    padding: 5px;
+    background: none;
+}
+#suSubmit:hover {
+    color: lightseagreen;
+    border: 2px solid lightseagreen;
+}
+
+
+/* Loader Page Below */
+
+#preloader {
+    /* Image Below: https://miro.medium.com/max/400/1*mMTHT8fwuCvSSp0RNXM4nA.gif */
+    background: #28aa9d url(loader.gif) no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+/* Home Page Below */
+
+#homehtml {
+    height: 125%;
+    width: 100%;
+}
+#homeBody {
+    background-color: lightseagreen;
+    margin: auto;
+    font-family: 'Nunito';
+    height: 100%;
+    width: 100%;
+}
+#homeLeft {
+    text-align: center;
+    width: 32.6%;
+    height: 100%;
+    float: left;
+    border-right: 5px solid black;
+}
+#homeContainer { 
+    padding: 20px;
+}
+#homeBigHeader {
+    font-family: 'Lexend Deca';
+    font-size: 60px;
+    font-weight: 900;
+}
+#homeBigHeaderChange {
+    color: indigo;
+}
+#homeWelcomeName {
+    font-weight: 900;
+    text-decoration: underline;
+    background-color: teal;
+    padding: 6px;
+    border: none;
+}
+#homeDropDown {
+    position: relative;
+    display: inline-block;
+}
+#homeDropDown:hover #homeDropDownContent {
+    display: block;
+}
+#homeDropDownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 20px;
+}
+#homeDropDownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#homeDropDownContent a:hover {
+    background-color: #ddd;
+}
+#homeDropDown:hover #homeWelcomName {
+    background-color: seagreen;
+}
+#homeInfo {
+    width: 350px;
+    margin: auto;
+}
+#homeCreateQuiz {
+    border: 3px solid black;
+    padding-top: 2px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: turquoise;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+#homeCreateQuizTitle {
+    font-size: 35px;
+}
+#homeCreateQuizButton {
+    font-family: 'Lexend Deca';
+    font-size: 30px;
+    height: 70px;
+    width: 210px;
+    border-radius: 35px;
+    background-color: lightskyblue;
+}
+#homeSO {
+    font-family: 'Lexend Deca';
+    font-size: 38px;
+    height: 70px;
+    width: 240px;
+    border-radius: 35px;
+    background-color: teal;
+    border: 3px solid black;
+    box-shadow: 3px 3px gray;
+}
+#homeRight {
+    width: 67%;
+    height: 100%;
+    background: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    float: right;
+}
+#homeContainer2 {
+    font-family: 'Lexend Deca';
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    border-collapse: separate;
+}
+#homeContainer2 td {
+    border: 4px solid black;
+    width: 50%;
+    height: 400px;
+}
+.tdHeaders {
+    font-family: 'Lexend Deca';
+    text-align: center;
+    width: 98%;
+    font-size: 50px;
+}
+.tdExplanation {
+    font-size: 25px;
+}
+.tdButton {
+    font-family: 'Lexend Deca';
+    font-size: 30px;
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+}
+
+
+/* Edit Page Below */
+
+#editBody {
+    background-color: lightseagreen;
+    margin: auto;
+    font-family: 'Nunito';
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#editHeader {
+    font-size: 40px;
+    text-decoration: underline;
+}
+#editTable {
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: large;
+}
+.editTableTr, .editTableTd {
+    padding: 10px;
+    border: 3px solid black;
+}
+#editButton {
+    font-family: 'Lexend Deca';
+    font-size: 30px;
+    height: 70px;
+    width: 210px;
+    border-radius: 35px;
+    background-color: lightskyblue;
+}
+
+
+/* Quiz Page Below */
+
+#quizhtml {
+    height: 140%;
+    width: 100%;
+}
+#quizBody {
+    background-color: lightseagreen;
+    margin: auto;
+    font-family: 'Nunito';
+    height: 100%;
+    width: 100%;
+}
+#quizLeft {
+    text-align: center;
+    width: 32.6%;
+    height: 100%;
+    float: left;
+}
+#quizContainer { 
+    padding: 20px;
+}
+#quizExplanation {
+    font-size: 35px;
+}
+#quizGL {
+    font-size: 60px;
+}
+#quizGLImg {
+    width: 250px;
+}
+#quizRightOuter {
+    height: 100%;
+}
+#quizRight {
+    width: 62%;
+    height: 100%;
+    background: white;
+    overflow: hidden;
+    float: right;
+    font-family: 'Lexend Deca';
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 4px solid black;
+    text-align: center;
+    line-height: 35px;
+}
+.quizQuestion {
+    font-size: 25px;
+}
+#quizBigHeader {
+    font-family: 'Lexend Deca';
+    font-size: 60px;
+    font-weight: 900;
+}
+#quizBigHeaderChange {
+    color: indigo;
+}
+.quizName {
+    font-size: 60px;
+    text-decoration: underline;
+}
+.quizInputAnswer {
+    font-family: 'Lexend Deca';
+    height: 20px;
+    width: 300px;
+}
+.quizCircleNumbers {
+    font-size: 21px;
+}
+#quizSubmit {
+    font-family: 'Lexend Deca';
+    font-size: 30px;
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+}
+
+
+/* Score Page Below */
+
+#scorehtml {
+    height: 125%;
+    width: 100%;
+}
+#scoreBody {
+    background-color: lightseagreen;
+    margin: auto;
+    font-family: 'Nunito';
+    height: 100%;
+    width: 100%;
+}
+#scoreLeft {
+    text-align: center;
+    width: 32.6%;
+    height: 100%;
+    float: left;
+}
+#scoreContainer { 
+    padding: 20px;
+}
+#scoreExplanation {
+    font-size: 35px;
+}
+#scoreRightOuter {
+    height: 100%;
+}
+#scoreRight {
+    width: 62%;
+    height: 100%;
+    background: white;
+    overflow: hidden;
+    float: right;
+    font-family: 'Lexend Deca';
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 4px solid black;
+    text-align: center;
+    line-height: 35px;
+}
+#scoreBigHeader {
+    font-family: 'Lexend Deca';
+    font-size: 60px;
+    font-weight: 900;
+}
+#scoreBigHeaderChange {
+    color: indigo;
+}
+.scoreName {
+    font-size: 60px;
+    text-decoration: underline;
+}
+#scoreSubmit {
+    font-family: 'Lexend Deca';
+    font-size: 30px;
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+}
+
+
+/* New-Quiz Page Below */
+
+#newQuizhtml {
+    height: 100%;
+    width: 100%;
+}
+#newQuizBody {
+    background-color: lightseagreen;
+    margin: auto;
+    font-family: 'Nunito';
+    height: 100%;
+    width: 100%;
+}
+#newQuizLeft {
+    text-align: center;
+    width: 32.6%;
+    height: 100%;
+    float: left;
+}
+#newQuizContainer { 
+    padding: 20px;
+}
+#newQuizCreateQuestion {
+    font-family: 'Lexend Deca';
+    font-size: 30px;
+    border-radius: 10px;
+    height: 100px;
+    width: 250px;
+}
+#newQuizExplanation {
+    font-size: 35px;
+}
+#newQuizGL {
+    font-size: 60px;
+}
+#newQuizGLImg {
+    width: 250px;
+}
+#newQuizRightOuter {
+    height: 100%;
+}
+#newQuizRight {
+    width: 62%;
+    height: 100%;
+    background: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    float: right;
+    font-family: 'Lexend Deca';
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 4px solid black;
+    text-align: center;
+    line-height: 35px;
+}
+.newQuizReq {
+    color: red;
+    font-size: 20px;
+}
+.newQuizQuestion {
+    font-size: 25px;
+}
+#newQuizTitle {
+    font-family: 'Lexend Deca';
+    height: 30px;
+    width: 250px;
+    font-size: 30px;
+}
+#newQuizExplanation {
+    font-family: 'Lexend Deca';
+    height: 100px;
+    width: 400px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+#newQuizBigHeader {
+    font-family: 'Lexend Deca';
+    font-size: 60px;
+    font-weight: 900;
+}
+#newQuizBigHeaderChange {
+    color: indigo;
+}
+.newQuizName {
+    font-size: 60px;
+    text-decoration: underline;
+}
+.newQuizInputQuestion {
+    font-family: 'Lexend Deca';
+    height: 60px;
+    width: 400px;
+}
+.newQuizInputAnswer {
+    font-family: 'Lexend Deca';
+    height: 20px;
+    width: 300px;
+}
+.newQuizCircleNumbers {
+    font-size: 21px;
+}
+#newQuizSubmit {
+    font-family: 'Lexend Deca';
+    font-size: 30px;
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+}

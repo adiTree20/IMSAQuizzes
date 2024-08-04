@@ -1,0 +1,29 @@
+<!-- ID: 124167 -->
+<!-- Quarter 2 Project -->
+
+<!-- Loader Page Below -->
+<!-- This page is a JavaScript animation of a loader that is called after successfully signing in. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loader</title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="loaderBody">
+        <div id="preloader"></div>
+
+        <script type="text/javascript">
+            var loader = document.getElementById("preloader");
+            window.addEventListener("load", function() {
+                setTimeout(function () {
+                    loader.style.display = "none";
+                    window.location.href='home.php';
+                }, 3000);
+            })                                                    
+        </script>        
+    </body>
+</html>
